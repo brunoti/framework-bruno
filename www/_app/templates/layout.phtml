@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?= $this->getViewTitle(); ?></title>
+        <?= $this->template('css'); ?>
+    </head>
+    <body>
+        <?= $this->template('menu'); ?>
+        <?php $this->view(); ?>
+        <?= $this->template('footer'); ?>
+        <?= $this->template('js'); ?>
+    </body>
+</html>

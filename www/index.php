@@ -3,6 +3,8 @@
 session_start();
 
 define('REL_URL', '/');
+define('APP_NAME', '');
+
 define('CONTROLLERS', '_app/controllers/');
 define('VIEWS', '_app/views/');
 define('MODELS', '_app/models/');
